@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526C56C55CB15A386673FAD3 /* Pods_Fit_India.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19E50AE5D6138D55BAF3B58 /* Pods_Fit_India.framework */; };
+		D52418E81FBFFB5500CED051 /* DoctorRgstrSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52418E71FBFFB5500CED051 /* DoctorRgstrSecondViewController.swift */; };
+		D52418EA1FC00CB400CED051 /* chooseSpecialityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52418E91FC00CB400CED051 /* chooseSpecialityViewController.swift */; };
+		D52418EC1FC01E6000CED051 /* DoctorExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52418EB1FC01E6000CED051 /* DoctorExperienceViewController.swift */; };
+		D52418EE1FC0338B00CED051 /* DoctorSetpassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52418ED1FC0338B00CED051 /* DoctorSetpassViewController.swift */; };
+		D53D60571FB6F38A00005B0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D60561FB6F38A00005B0B /* AppDelegate.swift */; };
+		D53D60591FB6F38A00005B0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D60581FB6F38A00005B0B /* ViewController.swift */; };
+		D53D605C1FB6F38A00005B0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53D605A1FB6F38A00005B0B /* Main.storyboard */; };
+		D53D605F1FB6F38A00005B0B /* Fit_India.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D53D605D1FB6F38A00005B0B /* Fit_India.xcdatamodeld */; };
+		D53D60611FB6F38A00005B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53D60601FB6F38A00005B0B /* Assets.xcassets */; };
+		D53D60641FB6F38A00005B0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53D60621FB6F38A00005B0B /* LaunchScreen.storyboard */; };
+		D5AF8BB51FBAF23300DB099F /* registerUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AF8BB41FBAF23300DB099F /* registerUserViewController.swift */; };
+		D5BAACC51FBD59FB0060EAF2 /* setpassUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BAACC41FBD59FB0060EAF2 /* setpassUserViewController.swift */; };
+		D5C25BC51FBC3D75007BFB91 /* helthRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C25BC41FBC3D75007BFB91 /* helthRegisterViewController.swift */; };
+		D5F28DFA1FBEC58600AA3017 /* DoctorRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F28DF91FBEC58600AA3017 /* DoctorRegistrationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D963FCA64E975A74FA7A1B0 /* Pods-Fit India.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fit India.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fit India/Pods-Fit India.debug.xcconfig"; sourceTree = "<group>"; };
+		4BEAE43750BCB3FF28FA9294 /* Pods-Fit India.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fit India.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fit India/Pods-Fit India.release.xcconfig"; sourceTree = "<group>"; };
+		A19E50AE5D6138D55BAF3B58 /* Pods_Fit_India.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fit_India.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52418E71FBFFB5500CED051 /* DoctorRgstrSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorRgstrSecondViewController.swift; sourceTree = "<group>"; };
+		D52418E91FC00CB400CED051 /* chooseSpecialityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseSpecialityViewController.swift; sourceTree = "<group>"; };
+		D52418EB1FC01E6000CED051 /* DoctorExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorExperienceViewController.swift; sourceTree = "<group>"; };
+		D52418ED1FC0338B00CED051 /* DoctorSetpassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSetpassViewController.swift; sourceTree = "<group>"; };
+		D53D60531FB6F38A00005B0B /* Fit India.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fit India.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53D60561FB6F38A00005B0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D53D60581FB6F38A00005B0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D53D605B1FB6F38A00005B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D53D605E1FB6F38A00005B0B /* Fit_India.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fit_India.xcdatamodel; sourceTree = "<group>"; };
+		D53D60601FB6F38A00005B0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D53D60631FB6F38A00005B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D53D60651FB6F38A00005B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5AF8BB41FBAF23300DB099F /* registerUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerUserViewController.swift; sourceTree = "<group>"; };
+		D5BAACC41FBD59FB0060EAF2 /* setpassUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setpassUserViewController.swift; sourceTree = "<group>"; };
+		D5C25BC41FBC3D75007BFB91 /* helthRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helthRegisterViewController.swift; sourceTree = "<group>"; };
+		D5F28DF91FBEC58600AA3017 /* DoctorRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorRegistrationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D53D60501FB6F38A00005B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526C56C55CB15A386673FAD3 /* Pods_Fit_India.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C580AC5E16877B2A88CB220 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D963FCA64E975A74FA7A1B0 /* Pods-Fit India.debug.xcconfig */,
+				4BEAE43750BCB3FF28FA9294 /* Pods-Fit India.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D53D604A1FB6F38A00005B0B = {
+			isa = PBXGroup;
+			children = (
+				D53D60551FB6F38A00005B0B /* Fit India */,
+				D53D60541FB6F38A00005B0B /* Products */,
+				1C580AC5E16877B2A88CB220 /* Pods */,
+				F6D67F16305BCE17163A3AE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D53D60541FB6F38A00005B0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D53D60531FB6F38A00005B0B /* Fit India.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D53D60551FB6F38A00005B0B /* Fit India */ = {
+			isa = PBXGroup;
+			children = (
+				D53D60561FB6F38A00005B0B /* AppDelegate.swift */,
+				D53D60581FB6F38A00005B0B /* ViewController.swift */,
+				D53D605A1FB6F38A00005B0B /* Main.storyboard */,
+				D52418ED1FC0338B00CED051 /* DoctorSetpassViewController.swift */,
+				D52418EB1FC01E6000CED051 /* DoctorExperienceViewController.swift */,
+				D52418E91FC00CB400CED051 /* chooseSpecialityViewController.swift */,
+				D52418E71FBFFB5500CED051 /* DoctorRgstrSecondViewController.swift */,
+				D5F28DF91FBEC58600AA3017 /* DoctorRegistrationViewController.swift */,
+				D5BAACC41FBD59FB0060EAF2 /* setpassUserViewController.swift */,
+				D5C25BC41FBC3D75007BFB91 /* helthRegisterViewController.swift */,
+				D5AF8BB41FBAF23300DB099F /* registerUserViewController.swift */,
+				D53D60601FB6F38A00005B0B /* Assets.xcassets */,
+				D53D60621FB6F38A00005B0B /* LaunchScreen.storyboard */,
+				D53D60651FB6F38A00005B0B /* Info.plist */,
+				D53D605D1FB6F38A00005B0B /* Fit_India.xcdatamodeld */,
+			);
+			path = "Fit India";
+			sourceTree = "<group>";
+		};
+		F6D67F16305BCE17163A3AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A19E50AE5D6138D55BAF3B58 /* Pods_Fit_India.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D53D60521FB6F38A00005B0B /* Fit India */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53D60681FB6F38A00005B0B /* Build configuration list for PBXNativeTarget "Fit India" */;
+			buildPhases = (
+				2B7EDEDF274AA47044B2AB9F /* [CP] Check Pods Manifest.lock */,
+				D53D604F1FB6F38A00005B0B /* Sources */,
+				D53D60501FB6F38A00005B0B /* Frameworks */,
+				D53D60511FB6F38A00005B0B /* Resources */,
+				278E0BA9F2A50D9FA9A43E5D /* [CP] Embed Pods Frameworks */,
+				3B5A72DBE9CC17B9087F5BEA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fit India";
+			productName = "Fit India";
+			productReference = D53D60531FB6F38A00005B0B /* Fit India.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D53D604B1FB6F38A00005B0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Sysboon Technologies";
+				TargetAttributes = {
+					D53D60521FB6F38A00005B0B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D53D604E1FB6F38A00005B0B /* Build configuration list for PBXProject "Fit India" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D53D604A1FB6F38A00005B0B;
+			productRefGroup = D53D60541FB6F38A00005B0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D53D60521FB6F38A00005B0B /* Fit India */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D53D60511FB6F38A00005B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53D60641FB6F38A00005B0B /* LaunchScreen.storyboard in Resources */,
+				D53D60611FB6F38A00005B0B /* Assets.xcassets in Resources */,
+				D53D605C1FB6F38A00005B0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		278E0BA9F2A50D9FA9A43E5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fit India/Pods-Fit India-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7EDEDF274AA47044B2AB9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B5A72DBE9CC17B9087F5BEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fit India/Pods-Fit India-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D53D604F1FB6F38A00005B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52418E81FBFFB5500CED051 /* DoctorRgstrSecondViewController.swift in Sources */,
+				D52418EE1FC0338B00CED051 /* DoctorSetpassViewController.swift in Sources */,
+				D5C25BC51FBC3D75007BFB91 /* helthRegisterViewController.swift in Sources */,
+				D5F28DFA1FBEC58600AA3017 /* DoctorRegistrationViewController.swift in Sources */,
+				D52418EA1FC00CB400CED051 /* chooseSpecialityViewController.swift in Sources */,
+				D5AF8BB51FBAF23300DB099F /* registerUserViewController.swift in Sources */,
+				D53D605F1FB6F38A00005B0B /* Fit_India.xcdatamodeld in Sources */,
+				D53D60591FB6F38A00005B0B /* ViewController.swift in Sources */,
+				D53D60571FB6F38A00005B0B /* AppDelegate.swift in Sources */,
+				D5BAACC51FBD59FB0060EAF2 /* setpassUserViewController.swift in Sources */,
+				D52418EC1FC01E6000CED051 /* DoctorExperienceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D53D605A1FB6F38A00005B0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53D605B1FB6F38A00005B0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D53D60621FB6F38A00005B0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53D60631FB6F38A00005B0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D53D60661FB6F38A00005B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D53D60671FB6F38A00005B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D53D60691FB6F38A00005B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D963FCA64E975A74FA7A1B0 /* Pods-Fit India.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56UUPA67AE;
+				INFOPLIST_FILE = "Fit India/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sysboon.Fit-India";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D53D606A1FB6F38A00005B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BEAE43750BCB3FF28FA9294 /* Pods-Fit India.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56UUPA67AE;
+				INFOPLIST_FILE = "Fit India/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sysboon.Fit-India";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D53D604E1FB6F38A00005B0B /* Build configuration list for PBXProject "Fit India" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53D60661FB6F38A00005B0B /* Debug */,
+				D53D60671FB6F38A00005B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53D60681FB6F38A00005B0B /* Build configuration list for PBXNativeTarget "Fit India" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53D60691FB6F38A00005B0B /* Debug */,
+				D53D606A1FB6F38A00005B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D53D605D1FB6F38A00005B0B /* Fit_India.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D53D605E1FB6F38A00005B0B /* Fit_India.xcdatamodel */,
+			);
+			currentVersion = D53D605E1FB6F38A00005B0B /* Fit_India.xcdatamodel */;
+			path = Fit_India.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D53D604B1FB6F38A00005B0B /* Project object */;
+}
